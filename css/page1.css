@@ -1,0 +1,326 @@
+* {
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #7B9B93;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .titleBox,
+html .titleBox {
+  background-color: #04433B;
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+body .titleBox .title,
+html .titleBox .title {
+  width: auto;
+  height: 700px;
+  border: #7B9B93 solid 5px;
+  margin: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .titleBox .title h1,
+html .titleBox .title h1 {
+  border-left: #7B9B93 solid 2px;
+  border-right: #7B9B93 solid 2px;
+  text-align: center;
+  width: 450px;
+  color: #7B9B93;
+  font-size: 70px;
+  margin: 70px 0;
+  text-decoration: underline;
+}
+
+body .titleBox .title .detailsBox,
+html .titleBox .title .detailsBox {
+  background-color: white;
+  width: 1000px;
+  height: 700px;
+  text-align: center;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 50px;
+}
+
+body .titleBox .title .detailsBox p,
+html .titleBox .title .detailsBox p {
+  font-size: 50px;
+  width: 350px;
+  text-align: center;
+  color: red;
+  margin: 50px 0;
+}
+
+body .titleBox .title .detailsBox .details,
+html .titleBox .title .detailsBox .details {
+  width: 900px;
+  height: 700px;
+  border: gray solid 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 0 0 50px;
+}
+
+body .titleBox .title .detailsBox .details p,
+html .titleBox .title .detailsBox .details p {
+  width: 100%;
+  color: gray;
+}
+
+body .titleBox .title .profile,
+html .titleBox .title .profile {
+  padding: 30px;
+  background-color: white;
+  width: 950px;
+  height: 500px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px 0;
+}
+
+body .titleBox .title .profile p,
+html .titleBox .title .profile p {
+  color: gray;
+  font-size: 30px;
+}
+
+body .titleBox .title .profile .left,
+html .titleBox .title .profile .left {
+  border-right: #7B9B93 solid 2px;
+  width: 50%;
+}
+
+body .titleBox .title .profile .left p,
+html .titleBox .title .profile .left p {
+  margin: 30px 0;
+}
+
+body .titleBox .title .profile .left select,
+html .titleBox .title .profile .left select {
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  color: white;
+  background-color: #00a95c;
+  border-radius: 5px;
+  border: none;
+}
+
+body .titleBox .title .profile .left select:focus,
+html .titleBox .title .profile .left select:focus {
+  outline: none;
+}
+
+body .titleBox .title .profile .left input,
+html .titleBox .title .profile .left input {
+  width: 180px;
+  padding: 0 5px;
+  height: 30px;
+  background-color: #00a95c;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+}
+
+body .titleBox .title .profile .left input:focus,
+html .titleBox .title .profile .left input:focus {
+  outline: none;
+}
+
+body .titleBox .title .profile .right,
+html .titleBox .title .profile .right {
+  border-left: #7B9B93 solid 2px;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .titleBox .title .profile .right p,
+html .titleBox .title .profile .right p {
+  padding-left: 30px;
+}
+
+body .titleBox .title .profile .right .decorate,
+html .titleBox .title .profile .right .decorate {
+  padding-left: 30px;
+}
+
+body .titleBox .title .profile .right select,
+html .titleBox .title .profile .right select {
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  color: white;
+  background-color: #00a95c;
+  border-radius: 5px;
+  border: none;
+}
+
+body .titleBox .title .profile .right select:focus,
+html .titleBox .title .profile .right select:focus {
+  outline: none;
+}
+
+body .titleBox .title .profile .right .button,
+html .titleBox .title .profile .right .button {
+  text-align: right;
+}
+
+body .titleBox .title .profile .right .button a,
+html .titleBox .title .profile .right .button a {
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #00a95c;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+body .titleBox .title .profile .right .button a:hover,
+html .titleBox .title .profile .right .button a:hover {
+  background-color: #04433B;
+}
+
+body .titleBox .container,
+html .titleBox .container {
+  margin: 0 0 30px;
+  width: 1000px;
+}
+
+body .titleBox .progressbar,
+html .titleBox .progressbar {
+  margin: 50px 0 50px 0;
+  counter-reset: step;
+}
+
+body .titleBox .progressbar p,
+html .titleBox .progressbar p {
+  margin: 0;
+  color: white;
+}
+
+body .titleBox .progressbar li,
+html .titleBox .progressbar li {
+  list-style-type: none;
+  width: 20%;
+  float: left;
+  font-size: 30px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+body .titleBox .progressbar li:before,
+html .titleBox .progressbar li:before {
+  width: 15px;
+  height: 15px;
+  content: '';
+  line-height: 30px;
+  border: 2px solid white;
+  background-color: white;
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+body .titleBox .progressbar li:after,
+html .titleBox .progressbar li:after {
+  width: 91%;
+  height: 2px;
+  content: '';
+  position: absolute;
+  background-color: white;
+  top: 7px;
+  left: -45%;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+body .titleBox .progressbar li:first-child:after,
+html .titleBox .progressbar li:first-child:after {
+  content: none;
+}
+
+body .titleBox .progressbar li.active:before,
+html .titleBox .progressbar li.active:before {
+  border-color: #55b776;
+  background-color: #55b776;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+body .titleBox .progressbar li.active:after,
+html .titleBox .progressbar li.active:after {
+  background-color: #55b776;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+/*# sourceMappingURL=page1.css.map */

@@ -1,0 +1,204 @@
+* {
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: url(../pics/covid.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .page2,
+html .page2 {
+  width: 900px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: white;
+  border-radius: 10px;
+}
+
+body .page2 .information p,
+html .page2 .information p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 40px 50px;
+  color: gray;
+  font-size: 30px;
+}
+
+body .page2 .information p label,
+html .page2 .information p label {
+  margin: 0 10px;
+}
+
+body .page2 .button,
+html .page2 .button {
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body .page2 .button .gray a,
+html .page2 .button .gray a {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  margin: 30px 0;
+  border-radius: 10px;
+  background-color: gray;
+  text-decoration: none;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .page2 .button .gray a:hover,
+html .page2 .button .gray a:hover {
+  background-color: black;
+}
+
+body .page2 .button .green a,
+html .page2 .button .green a {
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+  margin: 30px;
+  color: white;
+  background-color: #00a95c;
+  text-decoration: none;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .page2 .button .green a:hover,
+html .page2 .button .green a:hover {
+  background-color: #04433B;
+}
+
+body .container,
+html .container {
+  width: 1000px;
+}
+
+body .progressbar,
+html .progressbar {
+  margin: 50px 0 50px 0;
+  counter-reset: step;
+}
+
+body .progressbar p,
+html .progressbar p {
+  margin: 0;
+  color: white;
+}
+
+body .progressbar li,
+html .progressbar li {
+  list-style-type: none;
+  width: 20%;
+  float: left;
+  font-size: 30px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+body .progressbar li:before,
+html .progressbar li:before {
+  width: 15px;
+  height: 15px;
+  content: '';
+  line-height: 30px;
+  border: 2px solid white;
+  background-color: white;
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+body .progressbar li:after,
+html .progressbar li:after {
+  width: 91%;
+  height: 2px;
+  content: '';
+  position: absolute;
+  background-color: white;
+  top: 7px;
+  left: -45%;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+body .progressbar li:first-child:after,
+html .progressbar li:first-child:after {
+  content: none;
+}
+
+body .progressbar li.active:before,
+html .progressbar li.active:before {
+  border-color: #55b776;
+  background-color: #55b776;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+body .progressbar li.active:after,
+html .progressbar li.active:after {
+  background-color: #55b776;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+/*# sourceMappingURL=page2.css.map */
